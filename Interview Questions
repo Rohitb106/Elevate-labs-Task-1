@@ -1,0 +1,38 @@
+1. What are the different types of missing data?
+MCAR (Missing Completely at Random): No relationship between missing data and any other variable.
+
+MAR (Missing at Random): Missing depends on observed data but not on the missing value itself.
+
+MNAR (Missing Not at Random): Missingness depends on the missing value itself.
+
+2. How do you handle categorical variables?
+Use encoding techniques like Label Encoding or One-Hot Encoding to convert categories into numbers.
+
+3. What is the difference between normalization and standardization?
+Normalization scales data to a range (usually 0 to 1).
+
+Standardization transforms data to have mean = 0 and standard deviation = 1.
+
+4. How do you detect outliers?
+Visual methods: Boxplots, Scatter plots.
+
+Statistical methods: IQR (Interquartile Range), Z-score method.
+
+5. Why is preprocessing important in ML?
+It improves data quality, handles inconsistencies, prepares data for algorithms, and boosts model accuracy.
+
+6. What is one-hot encoding vs label encoding?
+Label Encoding: Assigns a unique number to each category (e.g., Male=0, Female=1).
+
+One-Hot Encoding: Creates binary columns for each category (e.g., Male: [1,0], Female: [0,1]).
+
+7. How do you handle data imbalance?
+Oversampling minority class (e.g., SMOTE).
+
+Undersampling majority class.
+
+Use different metrics like F1-score instead of just accuracy.
+
+8. Can preprocessing affect model accuracy?
+Yes!
+Good preprocessing (like handling missing values, scaling, encoding properly) makes models learn better patterns and prevents bias or wrong predictions.
